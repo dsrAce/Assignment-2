@@ -1,0 +1,20 @@
+Exercise 1:
+This program uses fork() to create a new process. 
+If pid == 0  its a child process.
+If pid > 0 its  a parent process.
+If pid < 0 its a fork failed.
+
+Role of the Linker:
+The linker combines multiple object files (.o) into a single executable,It resolves external function references and arranges memory section.
+
+the Loader:
+The loader loads the executable into memory, maps shared libraries,sets up the stack, and transfers control to the program entry point.
+
+Exercise 5:
+file1.c defines hello()
+file2.c declares hello() and calls it.
+The linker connects them so main() can call hello().
+
+Exercise 6:
+ldd simple_program shows which shared libraries the program uses.
+Examples: libc.so, ld-linux, etc.
